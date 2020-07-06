@@ -1,0 +1,43 @@
+body {
+	background: #2d3436;
+}
+h1{
+	color: white;
+	font-family: sans-serif;
+}
+
+img {
+  border-radius: 50%;
+  float: right;
+}
+.container{
+	width: 95%;
+	padding: 10px;
+	background: #3498db;
+	margin: 100px auto;
+	display: flex;
+	justify-content: center;
+	border-radius: 8px;
+	text-align: center;
+	color: black;
+}
+
+.box{
+	width: 200px;
+	height: 600px;
+	background: #ecf0f1;
+	margin: 0px 5px;
+	transition: 1s;
+	border-radius: 8px;
+}
+
+.box:hover{
+	transform: scale(1.1);
+    box-shadow: 2px 2px 2px #000;
+	z-index: 2;
+}
+footer {
+	color: white;
+	text-align: center;
+	font-size: 16px;
+}
